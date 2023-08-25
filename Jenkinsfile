@@ -10,7 +10,11 @@ pipeline {
     }
 	
 	stages {
-	
+	  stage('Checkout') {
+            steps {
+                checkout scm
+            }
+	  }
 	  stage('Build Angular Image') {
         when { changeset "client/*"}
 	     steps {
