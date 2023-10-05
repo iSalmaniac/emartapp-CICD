@@ -5,7 +5,7 @@ pipeline {
         clientRegistry = "repository.k8sengineers.com/apexrepo/client"
         booksRegistry = "repository.k8sengineers.com/apexrepo/books"
         mainRegistry = "repository.k8sengineers.com/apexrepo/main"
-        registryCredential = 'NexusRepoLogin'
+        registryCredential = 'dockerhub'
         cartRegistry = "https://repository.k8sengineers.com"
     }
 	
