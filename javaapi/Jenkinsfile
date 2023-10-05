@@ -3,7 +3,7 @@ pipeline {
 	
 	environment {
         registry = "repository.k8sengineers.com/apexrepo/main"
-        registryCredential = 'NexusRepoLogin'
+        registryCredential = 'dockerhub'
         cartRegistry = "https://repository.k8sengineers.com"
     }
 	
